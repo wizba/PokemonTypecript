@@ -1,0 +1,44 @@
+.header {
+  text-align: center;
+  background-color: rgb(56, 55, 53);
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.bodyfont {
+  font-family: sans-serif;
+}
+
+.Maindiv {
+  /* background-color: rgb(224, 216, 216); */
+  color: rgb(68, 49, 92);
+  display:flex ;
+}
+
+.div1{
+    /* background-color: rgb(157, 157, 214); */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.div2{
+    /* background-color: rgb(241, 145, 145); */
+    
+}
+
+.div1 div{
+    width:300px;
+    font-style: italic;
+}
+
+.Maindiv div{
+    width: 50%;
+}
+
+.house-img{
+    width: 100%;
+   
+}
