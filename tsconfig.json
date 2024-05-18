@@ -4,7 +4,7 @@
     "module": "commonjs",
     "strict": true,
     "esModuleInterop": true,
-    "outDir": "dist"  // Change this to your desired output directory
+    "outDir": "src/dist"  // Change this to your desired output directory
   },
   "include": [
     "src/**/*.ts"
