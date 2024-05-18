@@ -1,5 +1,5 @@
 {
-  "name": "typescript", 
+  "name": "typescript",
   "version": "1.0.0",
   "description": "",
   "main": "./src/app.ts",
@@ -8,5 +8,11 @@
     "build": "tsc"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
 }
