@@ -1,10 +1,9 @@
-function getPokemnoByName(name: string): void {
+async function getPokemnoByName(name: string): Promise<void> {
   const url = `https://pokeapi.co/api/v2/pokemon/${name}`;
-  console.log(url);
-  fetch(url).then(async(response)=>{
-    const data:any =await response.json();
-    console.log("my response ", data);
-  })
+
+  const dataResponse =await fetch(url);
+  const pokemonData = await dataResponse.json();
+
 }
 
 getPokemnoByName("pikachu");
